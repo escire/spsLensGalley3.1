@@ -7,14 +7,16 @@
  *
  * Embedded viewing of a JATS XML galley.
  *}
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 <script src="{$jQueryUrl}"></script>
-<script src="{$pluginLensPath}/lens.js?v=27mar2020"></script>
+<script src="{$pluginLensPath}/lens.js?v=20200407"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">{literal}
 
 	var linkElement = document.createElement("link");
 	linkElement.rel = "stylesheet";
-	linkElement.href = "{/literal}{$pluginLensPath|escape:"javascript"}{literal}/lens.css?v=27mar2020"; //Replace here
+	linkElement.href = "{/literal}{$pluginLensPath|escape:"javascript"}{literal}/lens.css?v=20200407"; //Replace here
 
 	document.head.appendChild(linkElement);
 

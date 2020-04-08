@@ -2,5 +2,8 @@
 
 ## Install
 
+Temporal solution: replace files in `./plugins/generic/lensGalley` with this project files.
+
 ## Original project
-This plugin is based in the original plugin found in <https://github.com/asmecher/lensGalley>
+
+This is based in the original plugin found at <https://github.com/asmecher/lensGalley>
