@@ -12,6 +12,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">{literal}
 
+    // remove all existing stylesheets
+    $('link[rel=stylesheet]').remove();
+
 	var linkElement = document.createElement("link");
 	linkElement.rel = "stylesheet";
 	linkElement.href = "{/literal}{$pluginLensPath|escape:"javascript"}{literal}/lens.css?v=20200407";
