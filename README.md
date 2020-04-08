@@ -1,6 +1,6 @@
 # SPS Lens Galley for OJS 3.1.x
 
-## Install
+## Installing
 
 Temporal solution: replace files in `./plugins/generic/lensGalley` with this project files.
 
