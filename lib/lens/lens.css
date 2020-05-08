@@ -528,7 +528,7 @@ out (on iOS 5.1), or flicker (on iOS 6). */
 ======================================================================= */
 .article .document {
   line-height: 28.5px;
-  font-size: 17px !important;
+  font-size: 17px;
   position: relative;
   float: left;
   overflow: hidden;
@@ -956,7 +956,7 @@ span.annotation.formula_reference, span.publication_reference {
   height: 0px; }
 
 .article .document .surface.content::-webkit-scrollbar-thumb {
-  background-color: transparent; }
+  background-color: rgba(0, 0, 0, 0); }
 
 .scrollbar-cover {
   position: absolute;
@@ -975,7 +975,7 @@ span.annotation.formula_reference, span.publication_reference {
 
 .article .resources .panel::-webkit-scrollbar-thumb,
 .article .resources .surface::-webkit-scrollbar-thumb {
-  background-color: transparent; }
+  background-color: rgba(0, 0, 0, 0); }
 
 /* Resources Scrollbar */
 /* ---------------------------------------*/
@@ -1063,12 +1063,9 @@ TOC
   display: inline; }
 
 .resource-view.toc .heading-ref.active {
-  color: #1B6685;
-  background: rgba(11, 157, 217, 0.075);
-  border: 1px solid rgba(11, 157, 217, 0.4); }
-
-.resource-view.toc .heading-ref span:hover {
-  color: #0b9dd9; }
+  color: rgba(0, 0, 0, 0.9);
+  background: #fff;
+  border: 1px solid #eee; }
 
 .resource-view.toc .heading-ref.level-2 {
   padding-left: 20px;
@@ -1237,9 +1234,8 @@ body.reader #container {
   height: 100%; }
 
 body, textarea, p, input {
-  font-family: 'Source Sans Pro', Helvetica, Arial, Verdana, sans-serif !important;
-  color: #505050;
-  font-weight: 400 !important; }
+  font-family: 'Source Sans Pro', Helvetica, Arial, Verdana, sans-serif;
+  color: #505050; }
 
 a {
   color: #1B6685;
