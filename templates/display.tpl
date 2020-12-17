@@ -8,7 +8,7 @@
  * Embedded viewing of a JATS XML galley.
  *}
 <script src="{$jQueryUrl}"></script>
-<script src="{$pluginLensPath}/lens.js?v=20200407"></script>
+<script src="{$pluginLensPath}/lens.js?v=20201217"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">{literal}
 
@@ -17,7 +17,7 @@
 
 	var linkElement = document.createElement("link");
 	linkElement.rel = "stylesheet";
-	linkElement.href = "{/literal}{$pluginLensPath|escape:"javascript"}{literal}/lens.css?v=20200407";
+	linkElement.href = "{/literal}{$pluginLensPath|escape:"javascript"}{literal}/lens.css?v=20201217";
 	document.head.appendChild(linkElement);
 
     // fontawesome
